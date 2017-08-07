@@ -50,5 +50,4 @@ dependencies {
 
     kapt 'com.android.databinding:compiler:2.3.3'
     kapt 'android.arch.persistence.room:compiler:1.0.0-alpha8'
-
 }

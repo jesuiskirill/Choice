@@ -37,7 +37,7 @@ class AddQuestionFragment : Fragment() {
             R.id.save_question -> {
                 val title = question_title.editText?.text.toString()
                 val description = question_description.editText?.text.toString()
-                val question = Question(0, title, description)
+                val question = Question(title = title, description = description)
                 val handler = Handler()
                 Thread({
                     ChoiceApplication.db?.questionDao()?.insert(question)

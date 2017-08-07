@@ -13,5 +13,4 @@ interface QuestionDao {
 
     @Insert
     fun insert(question: Question)
-
 }
